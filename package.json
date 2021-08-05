@@ -9,6 +9,7 @@
 	"categories": [
 		"Other"
 	],
+	"icon": "https://user-images.githubusercontent.com/8144358/128411815-cef9d167-fe0b-41af-906a-67b8566907a5.png",
 	"activationEvents": [
 		"onCommand:changeCaseOfSymbol.camelCase",
 		"onCommand:changeCaseOfSymbol.capitalCase",
