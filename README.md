@@ -6,19 +6,17 @@ Case changing is performed via *change-case* ([npm](https://www.npmjs.com/packag
 
 ## Features
 
-Rename the symbol (word) under the cursor by executing `Rename to ... case` command. All occurences
+Rename the symbol (word) under the cursor by executing `Change case rename: ... case` command. All occurences
 of the symbol will be changed to the selected writing style.
 
 For example, to convert `variableA` to snake case (`variable_a`), put the cursor on the
-variable of interest and run command `Rename to snake case`
+variable of interest and run command `Change case rename: snake case`
 
-![change-case-rename-demo](https://user-images.githubusercontent.com/8144358/128406502-3223ba4c-8559-4a39-8d6f-0d72373786a3.gif)
+![change-case-rename-demo](https://user-images.githubusercontent.com/8144358/128410002-626e1dee-0275-4d6e-9e6b-6498034f1a6d.gif)
 
-For detailed description for transformations see [*change-case* github](https://github.com/blakeembrey/change-case)
+For detailed description of transformations see [*change-case* github](https://github.com/blakeembrey/change-case)
 
 ## Release Notes
-
-Users appreciate release notes as you update your extension.
 
 ### 1.0.0
 
