@@ -28,57 +28,57 @@
 			{
 				"command": "changeCaseOfSymbol.camelCase",
 				"title": "camel case",
-				"category": "Change case rename"
+				"category": "Change case of symbol"
 			},
 			{
 				"command": "changeCaseOfSymbol.capitalCase",
 				"title": "capital case",
-				"category": "Change case rename"
+				"category": "Change case of symbol"
 			},
 			{
 				"command": "changeCaseOfSymbol.constantCase",
 				"title": "constant case",
-				"category": "Change case rename"
+				"category": "Change case of symbol"
 			},
 			{
 				"command": "changeCaseOfSymbol.dotCase",
 				"title": "dot case",
-				"category": "Change case rename"
+				"category": "Change case of symbol"
 			},
 			{
 				"command": "changeCaseOfSymbol.headerCase",
 				"title": "header case",
-				"category": "Change case rename"
+				"category": "Change case of symbol"
 			},
 			{
 				"command": "changeCaseOfSymbol.noCase",
 				"title": "no case",
-				"category": "Change case rename"
+				"category": "Change case of symbol"
 			},
 			{
 				"command": "changeCaseOfSymbol.paramCase",
 				"title": "param case",
-				"category": "Change case rename"
+				"category": "Change case of symbol"
 			},
 			{
 				"command": "changeCaseOfSymbol.pascalCase",
 				"title": "pascal case",
-				"category": "Change case rename"
+				"category": "Change case of symbol"
 			},
 			{
 				"command": "changeCaseOfSymbol.pathCase",
 				"title": "path case",
-				"category": "Change case rename"
+				"category": "Change case of symbol"
 			},
 			{
 				"command": "changeCaseOfSymbol.sentenceCase",
 				"title": "sentence case",
-				"category": "Change case rename"
+				"category": "Change case of symbol"
 			},
 			{
 				"command": "changeCaseOfSymbol.snakeCase",
 				"title": "snake case",
-				"category": "Change case rename"
+				"category": "Change case of symbol"
 			}
 		]
 	},

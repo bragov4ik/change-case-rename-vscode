@@ -1,4 +1,4 @@
-# Change case rename VSCode extension
+# Change case of symbol VSCode extension
 
 This extension allows changing case of symbols by utilizing renaming feature.
 
@@ -6,13 +6,12 @@ Case changing is performed via *change-case* ([npm](https://www.npmjs.com/packag
 
 ## Features
 
-Rename the symbol (word) under the cursor by executing `Change case rename: ... case` command. All occurences
-of the symbol will be changed to the selected writing style.
+Rename the symbol (word) under the cursor by executing `Change case of symbol: ... case` command. All occurences of the symbol will be changed to the selected writing style.
 
 For example, to convert `variableA` to snake case (`variable_a`), put the cursor on the
-variable of interest and run command `Change case rename: snake case`
+variable of interest and run command `Change case of symbol: snake case`
 
-![change-case-rename-demo](https://user-images.githubusercontent.com/8144358/128410002-626e1dee-0275-4d6e-9e6b-6498034f1a6d.gif)
+![change-case-rename-demo](https://user-images.githubusercontent.com/8144358/128410415-d580e2bd-c43e-4580-8afb-16116d856653.gif)
 
 For detailed description of transformations see [*change-case* github](https://github.com/blakeembrey/change-case)
 
