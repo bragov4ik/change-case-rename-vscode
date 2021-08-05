@@ -1,8 +1,8 @@
 {
-	"name": "change-case-of-variable",
-	"displayName": "Change case of variable",
-	"description": "Allows to change variable name's case in all occurences",
-	"version": "0.0.1",
+	"name": "change-case-of-symbol",
+	"displayName": "Change case of symbol",
+	"description": "Allows to change symbol name's case in all its occurences",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.58.0"
 	},
@@ -10,64 +10,75 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:changeCaseOfVariable.camelCase",
-		"onCommand:changeCaseOfVariable.capitalCase",
-		"onCommand:changeCaseOfVariable.constantCase",
-		"onCommand:changeCaseOfVariable.dotCase",
-		"onCommand:changeCaseOfVariable.headerCase",
-		"onCommand:changeCaseOfVariable.noCase",
-		"onCommand:changeCaseOfVariable.paramCase",
-		"onCommand:changeCaseOfVariable.pascalCase",
-		"onCommand:changeCaseOfVariable.pathCase",
-		"onCommand:changeCaseOfVariable.sentenceCase",
-		"onCommand:changeCaseOfVariable.snakeCase"
+		"onCommand:changeCaseOfSymbol.camelCase",
+		"onCommand:changeCaseOfSymbol.capitalCase",
+		"onCommand:changeCaseOfSymbol.constantCase",
+		"onCommand:changeCaseOfSymbol.dotCase",
+		"onCommand:changeCaseOfSymbol.headerCase",
+		"onCommand:changeCaseOfSymbol.noCase",
+		"onCommand:changeCaseOfSymbol.paramCase",
+		"onCommand:changeCaseOfSymbol.pascalCase",
+		"onCommand:changeCaseOfSymbol.pathCase",
+		"onCommand:changeCaseOfSymbol.sentenceCase",
+		"onCommand:changeCaseOfSymbol.snakeCase"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "changeCaseOfVariable.camelCase",
-				"title": "Rename to camel case"
+				"command": "changeCaseOfSymbol.camelCase",
+				"title": "camel case",
+				"category": "Change case rename"
 			},
 			{
-				"command": "changeCaseOfVariable.capitalCase",
-				"title": "Rename to capital case"
+				"command": "changeCaseOfSymbol.capitalCase",
+				"title": "capital case",
+				"category": "Change case rename"
 			},
 			{
-				"command": "changeCaseOfVariable.constantCase",
-				"title": "Rename to constant case"
+				"command": "changeCaseOfSymbol.constantCase",
+				"title": "constant case",
+				"category": "Change case rename"
 			},
 			{
-				"command": "changeCaseOfVariable.dotCase",
-				"title": "Rename to dot case"
+				"command": "changeCaseOfSymbol.dotCase",
+				"title": "dot case",
+				"category": "Change case rename"
 			},
 			{
-				"command": "changeCaseOfVariable.headerCase",
-				"title": "Rename to header case"
+				"command": "changeCaseOfSymbol.headerCase",
+				"title": "header case",
+				"category": "Change case rename"
 			},
 			{
-				"command": "changeCaseOfVariable.noCase",
-				"title": "Rename to no case"
+				"command": "changeCaseOfSymbol.noCase",
+				"title": "no case",
+				"category": "Change case rename"
 			},
 			{
-				"command": "changeCaseOfVariable.paramCase",
-				"title": "Rename to param case"
+				"command": "changeCaseOfSymbol.paramCase",
+				"title": "param case",
+				"category": "Change case rename"
 			},
 			{
-				"command": "changeCaseOfVariable.pascalCase",
-				"title": "Rename to pascal case"
+				"command": "changeCaseOfSymbol.pascalCase",
+				"title": "pascal case",
+				"category": "Change case rename"
 			},
 			{
-				"command": "changeCaseOfVariable.pathCase",
-				"title": "Rename to path case"
+				"command": "changeCaseOfSymbol.pathCase",
+				"title": "path case",
+				"category": "Change case rename"
 			},
 			{
-				"command": "changeCaseOfVariable.sentenceCase",
-				"title": "Rename to sentence case"
+				"command": "changeCaseOfSymbol.sentenceCase",
+				"title": "sentence case",
+				"category": "Change case rename"
 			},
 			{
-				"command": "changeCaseOfVariable.snakeCase",
-				"title": "Rename to snake case"
+				"command": "changeCaseOfSymbol.snakeCase",
+				"title": "snake case",
+				"category": "Change case rename"
 			}
 		]
 	},

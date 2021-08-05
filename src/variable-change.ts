@@ -107,7 +107,7 @@ export async function renameToCase(newCase: Cases) {
 		// (shouldn't be the case)
 		vscode.window.showInformationMessage(genericError + "Error matching new case!");
 	}
-	console.log(`Would change word '${word}' to '${updatedWord}'`);
+	console.log(`Changing word '${word}' to '${updatedWord}'`);
 
 	// Rename to the obtained text
 
