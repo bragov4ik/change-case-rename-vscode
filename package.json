@@ -10,14 +10,64 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:change-case-of-variable.helloWorld"
+		"onCommand:changeCaseOfVariable.camelCase",
+		"onCommand:changeCaseOfVariable.capitalCase",
+		"onCommand:changeCaseOfVariable.constantCase",
+		"onCommand:changeCaseOfVariable.dotCase",
+		"onCommand:changeCaseOfVariable.headerCase",
+		"onCommand:changeCaseOfVariable.noCase",
+		"onCommand:changeCaseOfVariable.paramCase",
+		"onCommand:changeCaseOfVariable.pascalCase",
+		"onCommand:changeCaseOfVariable.pathCase",
+		"onCommand:changeCaseOfVariable.sentenceCase",
+		"onCommand:changeCaseOfVariable.snakeCase"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "change-case-of-variable.helloWorld",
-				"title": "Hello World"
+				"command": "changeCaseOfVariable.camelCase",
+				"title": "Rename to camel case"
+			},
+			{
+				"command": "changeCaseOfVariable.capitalCase",
+				"title": "Rename to capital case"
+			},
+			{
+				"command": "changeCaseOfVariable.constantCase",
+				"title": "Rename to constant case"
+			},
+			{
+				"command": "changeCaseOfVariable.dotCase",
+				"title": "Rename to dot case"
+			},
+			{
+				"command": "changeCaseOfVariable.headerCase",
+				"title": "Rename to header case"
+			},
+			{
+				"command": "changeCaseOfVariable.noCase",
+				"title": "Rename to no case"
+			},
+			{
+				"command": "changeCaseOfVariable.paramCase",
+				"title": "Rename to param case"
+			},
+			{
+				"command": "changeCaseOfVariable.pascalCase",
+				"title": "Rename to pascal case"
+			},
+			{
+				"command": "changeCaseOfVariable.pathCase",
+				"title": "Rename to path case"
+			},
+			{
+				"command": "changeCaseOfVariable.sentenceCase",
+				"title": "Rename to sentence case"
+			},
+			{
+				"command": "changeCaseOfVariable.snakeCase",
+				"title": "Rename to snake case"
 			}
 		]
 	},

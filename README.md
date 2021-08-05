@@ -1,4 +1,4 @@
-# change-case-of-variable README
+# Change case rename VSCode extension
 
 This is the README for your extension "change-case-of-variable". After writing up a brief description, we recommend including the following sections.
 
